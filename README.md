@@ -68,7 +68,7 @@ The study demonstrates that **Spatial-AttVesNet significantly outperforms the Si
     cd Spatial-AttVesNet-A-Low-Parameter-Vascular-Segmentation-Using-Attention-Mechanisms
     ```
 2.  **Prerequisites:**
-    * Python 3.x
+    * Python 3.11
     * Jupyter Notebook or Jupyter Lab
     * Required Libraries (recommended to create a virtual environment):
         ```bash
