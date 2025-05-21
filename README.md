@@ -135,4 +135,4 @@ For inquiries or collaborations, please contact Sanae Lamti via the repository's
 
 ## License
 
-This project is licensed under the . See the `LICENSE` file for details.
+This project is licensed under the MIT License . See the `LICENSE` file for details.
