@@ -111,6 +111,24 @@ This section showcases visual comparisons of segmentation results from UNET-Simp
 ### STARE Dataset
 ![Segmentation Comparison on STARE dataset](images/CHASEDB1_segmentation_comparison.png)
 
+This section provides detailed visual comparisons of segmentation outcomes on the proprietary MDRID dataset, highlighting model performance across different stages of diabetic retinopathy.
+
+#### MDRID Class 0: Non-Diabetic Retinopathy
+![MDRID Non-Diabetic Retinopathy Segmentation Comparison](images/MDRID_Class0_Segmentation_Comparison.png)
+
+#### MDRID Class 1: Mild Non-Proliferative Diabetic Retinopathy
+![MDRID Mild NPDR Segmentation Comparison](images/MDRID_Class1_Segmentation_Comparison.png)
+
+#### MDRID Class 2: Moderate Non-Proliferative Diabetic Retinopathy
+![MDRID Moderate NPDR Segmentation Comparison](images/MDRID_Class2_Segmentation_Comparison.png)
+
+#### MDRID Class 3: Severe Non-Proliferative Diabetic Retinopathy
+![MDRID Severe NPDR Segmentation Comparison](images/MDRID_Class3_Segmentation_Comparison.png)
+
+#### MDRID Class 4: Proliferative Diabetic Retinopathy
+![MDRID Proliferative DR Segmentation Comparison](images/MDRID_Class4_Segmentation_Comparison.png)
+
+
 ## Contact
 
 For inquiries or collaborations, please contact Sanae Lamti via the repository's GitHub issues or profile.
