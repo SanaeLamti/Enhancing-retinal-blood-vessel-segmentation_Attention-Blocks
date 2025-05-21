@@ -48,7 +48,6 @@ The comparative study adhered to a systematic methodology:
 
 The study demonstrates that **Spatial-AttVesNet significantly outperforms the Simple U-Net model** in retinal vessel segmentation performance across all tested datasets. Improvements are evident in both quantitative metrics and the visual quality of the segmentations, while maintaining a low parameter count.
 
-*(Example: Spatial-AttVesNet achieved an average Dice coefficient of X% compared to Y% for the Simple U-Net on the MDRID dataset.)*
 
 ## Repository Structure
 
@@ -59,7 +58,7 @@ The study demonstrates that **Spatial-AttVesNet significantly outperforms the Si
     * `CHASEDB1_segmentation_comparison.png`
     * `HRF_segmentation_comparison.png`
     * `STARE_segmentation_comparison.png`
-    * (Further subdirectories for MDRID comparisons or diabetic retinopathy stages can be added here if applicable.)
+    
 
 ## How to Use
 
@@ -110,7 +109,7 @@ This section showcases visual comparisons of segmentation results from UNET-Simp
 ![Segmentation Comparison on HRF dataset](images/HRF_segmentation_comparison.png)
 
 ### STARE Dataset
-![Segmentation Comparison on STARE dataset](images/STARE_segmentation_comparison.png)
+![Segmentation Comparison on STARE dataset](images/CHASEDB1_segmentation_comparison.png)
 
 ## Contact
 
