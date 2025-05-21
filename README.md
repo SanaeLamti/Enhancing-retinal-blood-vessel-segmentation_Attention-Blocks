@@ -32,7 +32,7 @@ The models underwent training and evaluation on the following diverse datasets:
 The comparative study adhered to a systematic methodology:
 
 1.  **Data Preprocessing:** Preparation and standardization of images from all utilized datasets.
-2.  **Model Training:** Each model (Spatial-AttVesNet and Simple U-Net) was trained extensively. For training, the **[DRIVE](https://www.google.com/url?sa=E&source=gmail&q=https://www.isi.uu.nl/Research/Databases/DRIVE/)** dataset was primarily utilized, complemented by data augmentation strategies to enhance model robustness and generalization. Comprehensive training details, including hyperparameters, loss functions, and metrics, are provided within the respective notebooks.
+2.  **Model Training:** Each model (Spatial-AttVesNet and Simple U-Net) was trained extensively. For training, the **[DRIVE](https://drive.grand-challenge.org/)** dataset was primarily utilized, complemented by data augmentation strategies to enhance model robustness and generalization. Comprehensive training details, including hyperparameters, loss functions, and metrics, are provided within the respective notebooks.
 3.  **Quantitative Evaluation:** Calculation of standard performance metrics for segmentation on the test sets, including:
     * Dice Coefficient
     * Jaccard Index
