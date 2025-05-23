@@ -24,8 +24,8 @@ The models underwent training and evaluation on the following diverse datasets:
 
 ## Models Compared
 
-1.  **Spatial-AttVesNet** (`Spatial-AttVesNet.ipynb`): An advanced deep learning architecture designed to enhance focus on crucial vessel features through integrated spatial attention mechanisms. This model aims for superior performance with optimized computational efficiency.
-2.  **Simple U-Net** (`UNET-SIMPLE.ipynb`): A standard implementation of the U-Net architecture, serving as a well-established baseline for evaluating the performance advancements introduced by Spatial-AttVesNet.
+1.  **Spatial_AttVesNet** (`Spatial-AttVesNet.ipynb`): An advanced deep learning architecture designed to enhance focus on crucial vessel features through integrated spatial attention mechanisms. This model aims for superior performance with optimized computational efficiency.
+2.  **Simple_UNet** (`UNET-SIMPLE.ipynb`): A standard implementation of the U-Net architecture, serving as a well-established baseline for evaluating the performance advancements introduced by Spatial-AttVesNet.
 
 ## Methodology
 
@@ -46,13 +46,13 @@ The comparative study adhered to a systematic methodology:
 
 ## Key Findings
 
-The study demonstrates that **Spatial-AttVesNet significantly outperforms the Simple U-Net model** in retinal vessel segmentation performance across all tested datasets. Improvements are evident in both quantitative metrics and the visual quality of the segmentations, while maintaining a low parameter count.
+The study demonstrates that **Spatial_AttVesNet significantly outperforms the Simple U-Net model** in retinal vessel segmentation performance across all tested datasets. Improvements are evident in both quantitative metrics and the visual quality of the segmentations, while maintaining a low parameter count.
 
 
 ## Repository Structure
 
-* `Spatial-AttVesNet.ipynb`: Jupyter notebook containing the implementation, training, evaluation, and visualization generation for the Spatial-AttVesNet model.
-* `UNET-SIMPLE.ipynb`: Jupyter notebook containing the implementation, training, evaluation, and visualization generation for the Simple U-Net model.
+* `Spatial_AttVesNet.ipynb`: Jupyter notebook containing the implementation, training, evaluation, and visualization generation for the Spatial-AttVesNet model.
+* `UNET_SIMPLE.ipynb`: Jupyter notebook containing the implementation, training, evaluation, and visualization generation for the Simple U-Net model.
 * `README.md`: This file.
 * `/images/`: Directory containing generated comparative figures.
     * `CHASEDB1_segmentation_comparison.png`
@@ -86,7 +86,7 @@ The study demonstrates that **Spatial-AttVesNet significantly outperforms the Si
         ```bash
         jupyter lab # or jupyter notebook
         ```
-    * Open `UNET-SIMPLE.ipynb` and/or `Spatial-AttVesNet.ipynb`.
+    * Open `UNET_SIMPLE.ipynb` and/or `Spatial_AttVesNet.ipynb`.
     * Execute the cells sequentially.
 
 ## Main Dependencies
