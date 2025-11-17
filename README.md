@@ -20,7 +20,8 @@ The models underwent training and evaluation on the following diverse datasets:
 * [**CHASE_DB1**](https://blogs.kingston.ac.uk/retinal/chasedb1/)
 
 ### Proprietary Dataset:
-* **MDRID** (Moroccan Diabetic Retinopathy Image Dataset): A locally collected dataset from the Mohammed VI University Hospital in Oujda. All images within this dataset were comprehensively segmented by both models for in-depth comparative analysis.
+* **MDRID (Moroccan Diabetic Retinopathy Image Dataset):** A locally collected dataset from the Mohammed VI University Hospital in Oujda.
+    * **Note on Dataset Versioning:** To clarify the dataset size mentioned in our accompanying paper: The experiments reported in our study (all performance metrics, kappa values, etc.) were conducted on the **full dataset of 500 retinal images**. This public repository provides a **curated subset of 250 annotated images** from that full dataset to ensure reproducibility of the core findings. The remaining 250 images are reserved for an extended version of the dataset to be presented in a future publication.
 
 ## Models Compared
 
@@ -54,6 +55,7 @@ The study demonstrates that **Spatial_AttVesNet significantly outperforms the Si
 * `Spatial_AttVesNet.ipynb`: Jupyter notebook containing the implementation, training, evaluation, and visualization generation for the Spatial-AttVesNet model.
 * `UNET_SIMPLE.ipynb`: Jupyter notebook containing the implementation, training, evaluation, and visualization generation for the Simple U-Net model.
 * `README.md`: This file.
+* `MDRID_250_Subset.zip`: (Example name) A zip file containing the 250-image public subset of the MDRID dataset (images and corresponding masks).
 * `/images/`: Directory containing generated comparative figures.
     * `CHASEDB1_segmentation_comparison.png`
     * `HRF_segmentation_comparison.png`
@@ -79,7 +81,7 @@ The study demonstrates that **Spatial_AttVesNet significantly outperforms the Si
         ```
 3.  **Data Acquisition:**
     * Download public datasets (STARE, HRF, CHASE_DB1) from their official sources (links provided in the Datasets section).
-    * Access to the MDRID dataset is managed by the Mohammed VI University Hospital in Oujda.
+    * Download the MDRID subset (e.g., `MDRID_250_Subset.zip`) from this repository and unzip it.
     * Adjust data paths within the notebooks to match your local setup.
 4.  **Run the Notebooks:**
     * Launch Jupyter Lab or Notebook:
