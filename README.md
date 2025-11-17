@@ -55,7 +55,7 @@ The study demonstrates that **Spatial_AttVesNet significantly outperforms the Si
 * `Spatial_AttVesNet.ipynb`: Jupyter notebook containing the implementation, training, evaluation, and visualization generation for the Spatial-AttVesNet model.
 * `UNET_SIMPLE.ipynb`: Jupyter notebook containing the implementation, training, evaluation, and visualization generation for the Simple U-Net model.
 * `README.md`: This file.
-* `MDRID_250_Subset.zip`: (Example name) A zip file containing the 250-image public subset of the MDRID dataset (images and corresponding masks).
+* `MDRID_250_Subset.zip`: A zip file containing the 250-image public subset of the MDRID dataset (images and corresponding masks).
 * `/images/`: Directory containing generated comparative figures.
     * `CHASEDB1_segmentation_comparison.png`
     * `HRF_segmentation_comparison.png`
@@ -80,8 +80,8 @@ The study demonstrates that **Spatial_AttVesNet significantly outperforms the Si
         pip install tensorflow opencv-python scikit-learn matplotlib numpy pillow jupyterlab
         ```
 3.  **Data Acquisition:**
-    * Download public datasets (STARE, HRF, CHASE_DB1) from their official sources (links provided in the Datasets section).
-    * Download the MDRID subset (e.g., `MDRID_250_Subset.zip`) from this repository and unzip it.
+    * Download public datasets (STARE, HRF, CHASE_DB1,DRIVE) from their official sources (links provided in the Datasets section).
+    * Download the MDRID subset (`MDRID_250_Subset.zip`) from this repository and unzip it.
     * Adjust data paths within the notebooks to match your local setup.
 4.  **Run the Notebooks:**
     * Launch Jupyter Lab or Notebook:
